@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Search Makeup Products</title>
+</head>
+<body>
+    <header>
+        <ul class="headerUl">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About this website</a></li>
+            <li><a href="#">Ask questions</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </header>
+    <div id="seihai">
+        <nav></nav>
+        <main>
+            <div id="title">Search Makeup Products</div>
+            <ul>
+                <li>
+                    <input type="button" value="Vegan" onclick="pressButton(this)" class="css-button-fully-rounded--rose" id="Vegan">
+                </li>
+                <li>
+                    <input type="button" value="Gluten Free" onclick="pressButton(this)" class="css-button-fully-rounded--rose">
+                </li>
+                <li>
+                    <input type="button" value="Canadian" onclick="pressButton(this)" class="css-button-fully-rounded--rose">
+                </li>
+                <li>
+                    <input type="button" value="Natural" onclick="pressButton(this)" class="css-button-fully-rounded--rose">
+                </li>
+                <li>
+                    <input type="button" value="Non-GMO" onclick="pressButton(this)" class="css-button-fully-rounded--rose">
+                </li>
+                <li>
+                    <input type="button" value="Organic" onclick="pressButton(this)" class="css-button-fully-rounded--rose">
+                </li>
+            </ul>
+            <div id="productCount" class="count"></div>
+            <div id="productList"></div>
+        </main>
+        <aside></aside>
+    </div>
+    <footer></footer>
+</body>
+</html>
