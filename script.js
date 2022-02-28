@@ -3,7 +3,7 @@ window.onload = function(){
 
 // onclick event after pressing one of categories
 function pressButton(category) {
-    var appUrl = 'http://makeup-api.herokuapp.com/api/v1/products.json?product_tags=' + category.value;
+    var appUrl = 'https://makeup-api.herokuapp.com/api/v1/products.json?product_tags=' + category.value;
 
     var request = new XMLHttpRequest(); 
     request.open('GET', appUrl, true);
